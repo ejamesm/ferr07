@@ -1,0 +1,43 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig 
+Developed @ General Assembly in NYC
+
+*/
+
+body {
+	background: url('http://images.teamsugar.com/files/upl1/1/12981/17_2008/B.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #000;
+}
+
+h1 {
+	font-size: 500%;
+	margin-top: 0;
+}
+
+h2 {
+	background-color: #35C0F2;
+	color: #000000;
+	border-radius: 7px;
+	padding: 5px;
+}
+
+#container {
+	background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS11yA43HVoNKjX699cRjDdbv5yIaxNboaaTdHB-Z_8AVg7F6jQGw");
+	background-size: cover;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 15px;
+	width: 450px;
+	border-bottom-right-radius: 20px;
+}
