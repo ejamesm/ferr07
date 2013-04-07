@@ -12,8 +12,10 @@
 
 var name = prompt("What is your name? (Better not be Jack)");
 
+
 function isJack (name) {
-	if (name === "Jack") {
+	testName = name.toLowerCase();
+	if (testName === "jack") {
 	return true;
 	
 	};
@@ -25,8 +27,8 @@ function isJack (name) {
 
 // var name = prompt("What is your name? (Better not be Jack)");
 
-if (name === "Jack") {
-	alert("NO JACKS ALLOWED")
+if (isJack(name)) {
+	alert("NO JACKS ALLOWED");
 } 
 
 //Do logic here to alert if a users name is Jack. 
